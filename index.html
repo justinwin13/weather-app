@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Web Application</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="location">
+        <h1 class="location-timezone">Location</h1>
+        <img class="icon" alt="Icon" />
+      </div>
+      <div class="temperature">
+        <div class="degree-section">
+          <h2 class="temperature-degree">32</h2>
+          <span>F</span>
+        </div>
+        <div class="weather-description-container">
+          <h2 class="weather-description-main">Main description</h2>
+          <p class="weather-description">description</p>
+        </div>
+      </div>
+      <div class="temperature-description">
+        <div class="low-high">
+            <p class="low">Low: </p>
+            <p class="high">High: </p>
+        </div>
+            <p class="feels-like">Feels like: </p>
+      </div>
+
+    </div>
+    <div class="search-container">
+        <input class="input" id="text-input" type="text" placeholder="Enter city name">
+        <button class="search-button">Search</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
